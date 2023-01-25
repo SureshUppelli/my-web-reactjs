@@ -11,4 +11,4 @@ COPY . /app/
 RUN npm install -g serve
 EXPOSE 5000
 # To start app
-ENTRYPOINT ["serve", "-s", "build"]
+ENTRYPOINT ["serve", "-s", "build", "-l", "5000"]
