@@ -32,7 +32,11 @@ export default function Contact() {
                                     <i className="bi bi-geo-alt flex-shrink-0"></i>
                                     <div>
                                         <h4>Location:</h4>
-                                        <p>A108 Adam Street, New York, NY 535022</p>
+                                        Novisync Inc<br />
+                                        300 Westage Business Center Drive <br />
+                                        Suite 400<br />
+                                        Fishkill, New York 12524<br />
+                                        United States <br /><br />
                                     </div>
                                 </div>
 
@@ -40,7 +44,7 @@ export default function Contact() {
                                     <i className="bi bi-envelope flex-shrink-0"></i>
                                     <div>
                                         <h4>Email:</h4>
-                                        <p>info@example.com</p>
+                                        <p>contact@novisync.com</p>
                                     </div>
                                 </div>
 
@@ -48,7 +52,7 @@ export default function Contact() {
                                     <i className="bi bi-phone flex-shrink-0"></i>
                                     <div>
                                         <h4>Call:</h4>
-                                        <p>+1 5589 55488 55</p>
+                                        <p>+1-833-668-4796</p>
                                     </div>
                                 </div>
 

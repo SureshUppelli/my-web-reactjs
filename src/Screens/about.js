@@ -140,10 +140,10 @@ export default function About() {
 
                         <div className="row gy-4">
 
-                            <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <div className="team-member">
                                     <div className="member-img">
-                                        <img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" />
+                                        {/* <img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" /> */}
                                         <div className="social">
                                             {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-twitter"></i></a>
@@ -156,24 +156,20 @@ export default function About() {
                                         </div>
                                     </div>
                                     <div className="member-info">
-                                        <h4>Walter White</h4>
+                                        <h4>Rajesh Pericherla</h4>
                                         <span>Chief Executive Officer</span>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            {/* <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                                 <div className="team-member">
                                     <div className="member-img">
                                         <img src="assets/img/team/team-2.jpg" className="img-fluid" alt="" />
                                         <div className="social">
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-twitter"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-facebook"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-instagram"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-linkedin"></i></a>
                                         </div>
                                     </div>
@@ -189,13 +185,9 @@ export default function About() {
                                     <div className="member-img">
                                         <img src="assets/img/team/team-3.jpg" className="img-fluid" alt="" />
                                         <div className="social">
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-twitter"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-facebook"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-instagram"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-linkedin"></i></a>
                                         </div>
                                     </div>
@@ -211,13 +203,9 @@ export default function About() {
                                     <div className="member-img">
                                         <img src="assets/img/team/team-4.jpg" className="img-fluid" alt="" />
                                         <div className="social">
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-twitter"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-facebook"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-instagram"></i></a>
-                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-linkedin"></i></a>
                                         </div>
                                     </div>
@@ -226,7 +214,7 @@ export default function About() {
                                         <span>Accountant</span>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
 
