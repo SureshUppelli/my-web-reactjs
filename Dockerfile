@@ -1,5 +1,5 @@
 # base image
-FROM node:12.2.0-alpine
+FROM node:14.18.0-alpine
 
 RUN apk --update add git
 
