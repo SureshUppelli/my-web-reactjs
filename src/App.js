@@ -1,4 +1,5 @@
 import * as React from "react";
+//eslint-disable-next-line
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Home from "./Screens/home";
 import About from "./Screens/about";

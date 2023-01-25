@@ -15,10 +15,10 @@ export default function Footer() {
                             </a>
                             <p>An Industry Leader in Data Center, Cloud and Systems Integration.</p>
                             <div className="social-links d-flex  mt-3">
-                                <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-                                <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-                                <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-                                <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+                                {/* <a href="#" className="twitter"><i className="bi bi-twitter"></i></a> */}
+                                <a href="https://www.facebook.com/profile.php?id=100046418156066" className="facebook"><i className="bi bi-facebook"></i></a>
+                                {/* <a href="#" className="instagram"><i className="bi bi-instagram"></i></a> */}
+                                <a href="https://www.linkedin.com/company/novisync-solutions-inc-?originalSubdomain=in" className="linkedin"><i className="bi bi-linkedin"></i></a>
                             </div>
                         </div>
 
@@ -35,14 +35,14 @@ export default function Footer() {
                         </div>
 
                         <div className="col-lg-2 col-6 footer-links">
-                            <h4>Our Services</h4>
+                            {/* <h4>Our Services</h4>
                             <ul>
                                 <li><i className="bi bi-dash"></i> <a href="#">Web Design</a></li>
                                 <li><i className="bi bi-dash"></i> <a href="#">Web Development</a></li>
                                 <li><i className="bi bi-dash"></i> <a href="#">Product Management</a></li>
                                 <li><i className="bi bi-dash"></i> <a href="#">Marketing</a></li>
                                 <li><i className="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
 
                         <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">

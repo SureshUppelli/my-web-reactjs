@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from "react";
 import Footer from "../Components/Footer";
 import TopNav from "../Components/TopNav";
@@ -54,8 +55,8 @@ export default function Contact() {
                             </div>
 
                             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-
-                                <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+                                {/* //eslint-disable-next-line */}
+                                <form action="" method="post" role="form" className="php-email-form">
                                     <div className="row">
                                         <div className="col-md-6 form-group">
                                             <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />

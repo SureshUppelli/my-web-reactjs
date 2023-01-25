@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Footer from '../Components/Footer'
 import TopNav from '../Components/TopNav'
@@ -144,9 +145,13 @@ export default function About() {
                                     <div className="member-img">
                                         <img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" />
                                         <div className="social">
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-twitter"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-facebook"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-instagram"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-linkedin"></i></a>
                                         </div>
                                     </div>
@@ -162,9 +167,13 @@ export default function About() {
                                     <div className="member-img">
                                         <img src="assets/img/team/team-2.jpg" className="img-fluid" alt="" />
                                         <div className="social">
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-twitter"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-facebook"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-instagram"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-linkedin"></i></a>
                                         </div>
                                     </div>
@@ -180,9 +189,13 @@ export default function About() {
                                     <div className="member-img">
                                         <img src="assets/img/team/team-3.jpg" className="img-fluid" alt="" />
                                         <div className="social">
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-twitter"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-facebook"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-instagram"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-linkedin"></i></a>
                                         </div>
                                     </div>
@@ -198,9 +211,13 @@ export default function About() {
                                     <div className="member-img">
                                         <img src="assets/img/team/team-4.jpg" className="img-fluid" alt="" />
                                         <div className="social">
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-twitter"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-facebook"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-instagram"></i></a>
+                                            {/* //eslint-disable-next-line */}
                                             <a href=""><i className="bi bi-linkedin"></i></a>
                                         </div>
                                     </div>
