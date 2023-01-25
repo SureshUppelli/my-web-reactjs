@@ -37,7 +37,7 @@ spec:
      app: novisync-web-react-front-prod-app
   type: NodePort
   ports:
-    - nodePort: 31131
+    - nodePort: 31194
       port: 5000
       targetPort: 5000
       
