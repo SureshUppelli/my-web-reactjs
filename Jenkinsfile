@@ -24,7 +24,7 @@ pipeline {
             steps{
                 sh label: '', script: '''npm install --production
 npm install react-scripts -g --silent
-npm run build'''
+CI=false npm run build'''
             }
         }
         stage("Building Frontend Image"){
