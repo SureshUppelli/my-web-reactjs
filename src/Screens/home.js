@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
             </section>
             <main id="main">
-                <section id="why-us" className="why-us">
+                {/* <section id="why-us" className="why-us">
                     <div className="container" data-aos="fade-up">
                         <div className="section-header">
                             <h2>Why Choose Us</h2>
@@ -77,7 +77,7 @@ export default function Home() {
                         </div>
 
                     </div>
-                </section>
+                </section> */}
 
                 <section id="services-list" className="services-list">
                     <div className="container" data-aos="fade-up">
