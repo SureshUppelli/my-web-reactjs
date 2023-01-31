@@ -22,14 +22,9 @@ export default function Blog() {
 
                 <section id="blog" className="blog">
                     <div className="container" data-aos="fade-up">
-
                         <div className="row g-5">
-
-
-
-
+                            <iframe src="https://rcats.novisync.com/careers" width="95%" height="900px"></iframe>
                         </div>
-
                     </div>
                 </section>
 
