@@ -81,63 +81,62 @@ export default function Home() {
 
                 <section id="services-list" className="services-list">
                     <div className="container" data-aos="fade-up">
-
                         <div className="section-header">
                             <h2>Partners</h2>
                         </div>
-                        <div className="row gy-5">
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                        <div className="row gy-5 d-flex">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client1.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client2.jpg'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client3.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client4.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client5.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client6.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client7.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client8.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client9.jpg'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client10.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client11.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client12.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client13.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client14.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client15.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client16.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client17.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client18.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
                             {/* <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
@@ -146,28 +145,28 @@ export default function Home() {
                             {/* <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client20.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div> */}
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client21.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
                             {/* <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client22.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div> */}
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client23.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
                             {/* <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client24.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div> */}
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client25.jpg'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client26.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client27.png'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
-                            <div className="col-lg-2 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div className="col-lg-2 col-md-6 service-item d-flex" style={{ justifyContent: 'center' }} data-aos="fade-up" data-aos-delay="100">
                                 <img src={'assets/img/partners/client28.jpg'} alt="Patners" style={{ width: '170px', height: '70px' }} />
                             </div>
                         </div>

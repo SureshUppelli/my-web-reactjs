@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
 
   document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
+    console.log(el)
     el.addEventListener('click', function(event) {
       event.preventDefault();
       mobileNavToogle();

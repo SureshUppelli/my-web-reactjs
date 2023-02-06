@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Link } from "react-router-dom";
+import './navigation'
 
 export default function TopNav() {
     return (
@@ -13,8 +14,8 @@ export default function TopNav() {
                         <h1 className="d-flex align-items-center" style={{ color: '#013E7B' }}>Novisync</h1>
                     </Link>
 
-                    <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-                    <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+                    <i style={{ color: '#013E7B' }} className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+                    <i style={{ color: '#013E7B' }} className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
                     <nav id="navbar" className="navbar" >
                         <ul>
