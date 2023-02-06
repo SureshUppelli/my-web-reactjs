@@ -12,7 +12,7 @@ export default function Team() {
 
                         <h2>Partners</h2>
                         <ol>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Partners</li>
                         </ol>
 

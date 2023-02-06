@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../Components/Footer";
-import TopNav from "../Components/TopNav";
+import Footer from "../../Components/Footer";
+import TopNav from "../../Components/TopNav";
 
-export default function Services() {
+export default function Migrations() {
     return (
         <div>
             <TopNav />
@@ -15,7 +15,7 @@ export default function Services() {
                         <h2>What We Do</h2>
                         <ol>
                             <li><a href="/">Home</a></li>
-                            <li>Services</li>
+                            <li><a href="/solutions">Solutions</a></li>
                         </ol>
 
                     </div>
@@ -86,7 +86,7 @@ export default function Services() {
                     <section id="services-cards" className="services-cards">
                         <div className="container" data-aos="fade-up">
                             <div className="section-header">
-                                <h2>Our Services</h2>
+                                <h2>THE INDUSTRY LEADER IN DATACENTER MIGRATIONS</h2>
                             </div>
                             <div className="row gy-4">
 
@@ -98,41 +98,57 @@ export default function Services() {
                                                 </div> */}
                                             <div className="col-xl-12 d-flex align-items-center">
                                                 <div className="card-body">
-                                                    <h4 className="card-title">Strategic Resourcing</h4>
-                                                    <p>Novisync works with our customers to find the right resources fast.</p>
-                                                    <p>Our Strategic Resourcing division is made up of a team of our Resource Advisors, Recruiters, and Project Managers who work together to deliver the best customer experience possible.</p>
-                                                    <p>We maintain a relationship with our customers from start to finish to ensure expectations are being met, and value is being delivered.</p>
-                                                    <br />
-                                                    <p><strong>Offerings: </strong></p>
-                                                    <br />
-                                                    <ul style={{ listStyle: 'none' }}>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Contracted Resources – Niche and Highly Skilled.</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Interim Hiring</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Contract To Hire</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Consulting  / Training</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Direct Hire / Headhunting</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Managed Services</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Program and Team Buildouts</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Workforce Development</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Multi Consultant Objective Deliverables</li>
+                                                    <p>
+                                                        Our consultants have performed tens of thousands of migrations for over a decade, as key contributors,
+                                                        delivering some of the most complex migration projects in datacenter history.  We have the best global talent
+                                                        available, including US-based resources, with decades of combined experience delivering projects in some of the
+                                                        world's biggest IT environments.  The Novisync<sup>&#174;</sup> process has been tempered and
+                                                        polished into the following services,
+                                                        which are results-based (fixed fee), priced by workload count, and project duration.
+                                                        <br /><br />
 
-                                                    </ul>
-                                                    <br />
-                                                    <p><strong>Pre Engagement: </strong></p>
-                                                    <p>
-                                                        Novisync conducts customer intake calls to fully understand our customers needs and culture of their business.  By having a full understanding of the requirements and the work environment we can commit to finding the right resources fast.
-                                                    </p>
-                                                    <br />
-                                                    <p>We conduct two interviews of every resource before presenting to our customers. We conduct a Cultural Fit and Technical Interview before summitting resources so we can deliver two resumes per role instead of twenty. Better qualified resources and faster turnaround help our customers save time and money.
-                                                    </p>
-                                                    <br />
-                                                    <p><strong>Resource Selection: </strong></p>
-                                                    <p>
-                                                        Once a resource is selected and onboarded, they will be assigned to a project manager who will have regular contact with the resource and their manager throughout the entire engagement to ensure mutual customer and resource satisfaction.
-                                                    </p>
-                                                    <br />
-                                                    <p>
-                                                        Everyone of our resources have access to Upskilling, Training, and Certification programs through industry leading training programs and partners
+                                                        <b> P2V<sup>&#8480;</sup> | Physical to Virtual Migration Services</b><br />
+                                                        Novisync<sup>&#174;</sup> specializes in decoupling Linux and Windows-based Operating Systems from physical hardware, converting them
+                                                        Virtual Machines (VMs), while migrating them onto your preferred virtualization platform.  Our staging, execution,
+                                                        testing, and validation tools and processes are 2nd to none, with the highest rates in conversion quality and
+                                                        availability.<br /><br />
+
+                                                        <b>V2V<sup>&#8480;</sup> | Virtual to Virtual Migration Services</b><br />
+                                                        Whether it's rack-to-rack, site-to-site, or cloud-to-cloud migrations of virtual workloads, Novisync<sup>&#174;</sup>
+                                                        has mastered
+                                                        all the industry tools to meet the project deadlines.  Whether it's hot or cold migrations, we are laser-focused on
+                                                        workload volume, conversion quality, and availability.
+                                                        <br /><br />
+                                                        <b>X2V<sup>&#8480;</sup> | Anything to Virtual Migration Services</b><br />
+                                                        Adopting the new hybrid/multi-cloud model? <br />
+                                                        Ready to consolidate data centers? <br />
+                                                        Need a high-priority datacenter evacuation?<br />
+                                                        <br />
+                                                        Let us handle the operational requirements and technical delivery of your entire migration project with the complete
+                                                        package, strategic and tactical execution, from start to finish, which includes:<br />
+                                                        <i className="fa fa-caret-right"></i> Project Charters & Workplans<br />
+                                                        <i className="fa fa-caret-right"></i> Risk Assessments w/ Action Items<br />
+                                                        <i className="fa fa-caret-right"></i> Change Control Scheduling<br />
+                                                        <i className="fa fa-caret-right"></i> Advanced Analytics w/Automated Project Tracking<br />
+                                                        <i className="fa fa-caret-right"></i> Quality Assurance & Reporting Dashboards<br />
+                                                        <br />
+                                                        <b>V2C<sup>&#8480;</sup> | X2C<sup>&#8480;</sup> | Peregrinix<sup>&#8482;</sup> | Anything to Cloud Migration Services</b><br />
+                                                        Datacenter-to-cloud or cloud-to-cloud migrations require a special touch. The Novisync<sup>&#174;</sup> delivery team
+                                                        has decades of combined experience in multiple cloud
+                                                        endpoints, having a deep understanding of the cloud API's allows for seamless integration of software.
+                                                        That integration is a key ingredient for the execution
+                                                        of a successful migration project into the cloud.
+
+                                                        <br />
+                                                        <br />
+                                                        <b>VM2C<sup>&#8480;</sup> | Virtual Machine to Container Migration Services</b><br />
+                                                        Ready to adopt the resource efficiency of containers but not sure where to start?<br /><br />
+                                                        Novisync<sup>&#174;</sup> can get you started with a containerization strategy and implementation that includes
+                                                        technical education and training, product selection, as well as conversion assistance for multiple virtualization and container tools.
+                                                        Allow us to be your guide into the new era of containers through all phases of implementation
+                                                        Proof-of-Concept (POC), Pilot, and Production.
+                                                        <br /> <br />
+                                                        <a href="/contact">Learn More...</a>
                                                     </p>
                                                 </div>
                                             </div>

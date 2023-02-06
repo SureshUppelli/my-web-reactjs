@@ -8,6 +8,12 @@ import Portfolio from "./Screens/portfolio";
 import Team from "./Screens/team";
 import Blog from "./Screens/blog";
 import Contact from "./Screens/contact";
+import Solutions from "./Screens/solutions.";
+import Migrations from "./Screens/Solutions/migrations";
+import Cloud from "./Screens/Solutions/cloud";
+import Business from "./Screens/Solutions/business";
+import Automation from "./Screens/Solutions/automation";
+import Analytics from "./Screens/Solutions/analytics";
 
 export default function App() {
   return (
@@ -30,6 +36,12 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/solutions" element={<Solutions />} />
+        <Route path="/migrations" element={<Migrations />} />
+        <Route path="/analytics" element={<Analytics />} />
+        <Route path="/automation" element={<Automation />} />
+        <Route path="/business" element={<Business />} />
+        <Route path="/cloud" element={<Cloud />} />
         <Route path="/insights" element={<Portfolio />} />
         <Route path="/partners" element={<Team />} />
         <Route path="/careers" element={<Blog />} />

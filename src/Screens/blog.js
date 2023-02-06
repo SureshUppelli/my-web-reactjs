@@ -12,7 +12,7 @@ export default function Blog() {
 
                         <h2>Careers</h2>
                         <ol>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Careers</li>
                         </ol>
 

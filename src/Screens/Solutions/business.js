@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../Components/Footer";
-import TopNav from "../Components/TopNav";
+import Footer from "../../Components/Footer";
+import TopNav from "../../Components/TopNav";
 
-export default function Services() {
+export default function Business() {
     return (
         <div>
             <TopNav />
@@ -15,7 +15,7 @@ export default function Services() {
                         <h2>What We Do</h2>
                         <ol>
                             <li><a href="/">Home</a></li>
-                            <li>Services</li>
+                            <li><a href="/solutions">Solutions</a></li>
                         </ol>
 
                     </div>
@@ -86,7 +86,7 @@ export default function Services() {
                     <section id="services-cards" className="services-cards">
                         <div className="container" data-aos="fade-up">
                             <div className="section-header">
-                                <h2>Our Services</h2>
+                                <h2>BUSINESS DEVELOPMENT & ENTERPRISE MANAGEMENT</h2>
                             </div>
                             <div className="row gy-4">
 
@@ -98,42 +98,11 @@ export default function Services() {
                                                 </div> */}
                                             <div className="col-xl-12 d-flex align-items-center">
                                                 <div className="card-body">
-                                                    <h4 className="card-title">Strategic Resourcing</h4>
-                                                    <p>Novisync works with our customers to find the right resources fast.</p>
-                                                    <p>Our Strategic Resourcing division is made up of a team of our Resource Advisors, Recruiters, and Project Managers who work together to deliver the best customer experience possible.</p>
-                                                    <p>We maintain a relationship with our customers from start to finish to ensure expectations are being met, and value is being delivered.</p>
-                                                    <br />
-                                                    <p><strong>Offerings: </strong></p>
-                                                    <br />
-                                                    <ul style={{ listStyle: 'none' }}>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Contracted Resources – Niche and Highly Skilled.</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Interim Hiring</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Contract To Hire</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Consulting  / Training</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Direct Hire / Headhunting</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Managed Services</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Program and Team Buildouts</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Workforce Development</li>
-                                                        <li><i className="bi bi-check-circle-fill"></i>{" "}Multi Consultant Objective Deliverables</li>
+                                                    <p>While the speed of delivery and a quick time to market may be the driving force behind a revenue-generating IT software implementation,
+                                                        Novisync<sup>&reg;</sup> understands the benefit of well-planned, cost-effective IT solutions that focus on achieving the perfect balance of
+                                                        people, process, and technology. Our business consulting services target the specific gaps that plague the enterprise market,
+                                                        changing a highly complex project into a smooth, pleasant experience. <br /><br /><br /><br /><a href="/contact">Learn More...</a></p>
 
-                                                    </ul>
-                                                    <br />
-                                                    <p><strong>Pre Engagement: </strong></p>
-                                                    <p>
-                                                        Novisync conducts customer intake calls to fully understand our customers needs and culture of their business.  By having a full understanding of the requirements and the work environment we can commit to finding the right resources fast.
-                                                    </p>
-                                                    <br />
-                                                    <p>We conduct two interviews of every resource before presenting to our customers. We conduct a Cultural Fit and Technical Interview before summitting resources so we can deliver two resumes per role instead of twenty. Better qualified resources and faster turnaround help our customers save time and money.
-                                                    </p>
-                                                    <br />
-                                                    <p><strong>Resource Selection: </strong></p>
-                                                    <p>
-                                                        Once a resource is selected and onboarded, they will be assigned to a project manager who will have regular contact with the resource and their manager throughout the entire engagement to ensure mutual customer and resource satisfaction.
-                                                    </p>
-                                                    <br />
-                                                    <p>
-                                                        Everyone of our resources have access to Upskilling, Training, and Certification programs through industry leading training programs and partners
-                                                    </p>
                                                 </div>
                                             </div>
                                         </div>

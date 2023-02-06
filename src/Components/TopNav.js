@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Link } from "react-router-dom";
 
@@ -22,7 +23,13 @@ export default function TopNav() {
                                 <Link to="/about" style={{ color: '#013E7B' }}>Who We are</Link>
                             </li>
                             <li>
-                                <Link to="/services" style={{ color: '#013E7B' }}>What We Do</Link>
+
+                            </li>
+                            <li className="dropdown"><a href="#" style={{ color: '#013E7B' }}><span>What We Do</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li> <Link to="/solutions" >Our Solutions</Link></li>
+                                    <li> <Link to="/services" >Our Services</Link></li>
+                                </ul>
                             </li>
                             <li>
                                 <Link to="/insights" style={{ color: '#013E7B' }}>Insights</Link>

@@ -13,7 +13,7 @@ export default function About() {
 
                         <h2>About</h2>
                         <ol>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>About</li>
                         </ol>
 

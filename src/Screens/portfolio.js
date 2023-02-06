@@ -11,7 +11,7 @@ export default function Portfolio() {
 
                     <h2>Insights</h2>
                     <ol>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Insights</li>
                     </ol>
 
