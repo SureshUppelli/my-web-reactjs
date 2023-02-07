@@ -10,8 +10,8 @@ export default function TopNav() {
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                     <Link to="/" className="logo d-flex align-items-center">
-                        <img src="assets/img/logo.png" alt="Novisync" />
-                        <h1 className="d-flex align-items-center" style={{ color: '#013E7B' }}>Novisync</h1>
+                        <img src="assets/img/nLogo.png" alt="Novisync" />
+                        <h1 className="d-flex align-items-center" style={{ color: '#BF0A30' }}>Novisync</h1>
                     </Link>
 
                     <i style={{ color: '#013E7B' }} className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>

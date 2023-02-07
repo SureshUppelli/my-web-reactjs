@@ -19,8 +19,8 @@
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #013E7B;
-  --color-secondary: #1b2f45;
+  --color-primary: #BF0A30;
+  --color-secondary: #002868;
 }
 
 /* Smooth scroll behavior */
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #82cbed;
+  color: #002868;
   text-decoration: none;
 }
 
@@ -602,7 +602,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: #82cbed;
+  color: #002868;
 }
 
 @media (max-width: 640px) {

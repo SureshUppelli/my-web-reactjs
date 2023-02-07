@@ -10,8 +10,8 @@ export default function Footer() {
                     <div className="row gy-4">
                         <div className="col-lg-5 col-md-12 footer-info">
                             <a href="index.html" className="logo d-flex align-items-center">
-                                <img src="assets/img/logo.png" alt="Novisync" />
-                                <span>Novisync</span>
+                                <img src="assets/img/nLogo.png" alt="Novisync" />
+                                <span style={{color: '#BF0A30'}}>Novisync</span>
                             </a>
                             <p>An Industry Leader in Data Center, Cloud and Systems Integration.</p>
                             <div className="social-links d-flex  mt-3">
