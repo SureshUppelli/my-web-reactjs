@@ -1,8 +1,10 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import Footer from "../Components/Footer";
 import TopNav from "../Components/TopNav";
 
 export default function Blog() {
+
     return (
         <div>
             <TopNav />
@@ -19,11 +21,11 @@ export default function Blog() {
                     </div>
                 </div>
 
-
                 <section id="blog" className="blog">
                     <div className="container" data-aos="fade-up">
                         <div className="row g-5">
-                            <iframe src="https://rcats.novisync.com/careers" width="95%" height="900px"></iframe>
+                            <iframe src="https://rcats.novisync.com/careers" width="95%" height="900px"
+                            ></iframe>
                         </div>
                     </div>
                 </section>
