@@ -10,7 +10,7 @@ export default function TopNav() {
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
 
                     <Link to="/" className="logo d-flex align-items-center">
-                        <img src="assets/img/n2Logo.png" alt="Novisync" />
+                        <img src="assets/img/n6Logo.png" alt="Novisync" />
                         <h1 className="d-flex align-items-center" style={{ color: '#002868' }}>Novisync</h1>
                     </Link>
 
