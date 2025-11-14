@@ -1,0 +1,28 @@
+# This is cloudbuild.yaml
+
+steps:
+  # --------------------------------------------------------------------
+  # Step 1: Build the application (e.g., a Node.js app)
+  # We use the 'node' builder from Google's builder registry.
+  # This step runs 'npm install' and 'npm run build'.
+  # --------------------------------------------------------------------
+  - name: 'gcr.io/cloud-builders/npm'
+    id: 'Build App'
+    args: ['install']
+  - name: 'gcr.io/cloud-builders/npm'
+    id: 'Run Tests' # Example of a test step
+    args: ['run', 'test']
+
+  # --------------------------------------------------------------------
+  # Step 2: Scan for vulnerabilities using Trivy
+  # We use the public 'aquasec/trivy' image directly as our builder.
+  # We scan the local filesystem ('fs') in the '/workspace' directory.
+  # '--exit-code 1' makes the build fail if high/critical vulnerabilities are found.
+  # 'waitFor: ['Build App']' ensures this step only runs after the app is built.
+  # --------------------------------------------------------------------
+  - name: 'aquasec/trivy:latest'
+    id: 'Scan Filesystem'
+    args: ['fs', '--security-checks', 'vuln', '--exit-code', '1', '/workspace']
+    waitFor: ['Build App'] # Wait for the 'Build App' step to finish
+
+  
