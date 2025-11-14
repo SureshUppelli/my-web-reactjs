@@ -25,6 +25,57 @@ steps:
     args: ['fs', '--security-checks', 'vuln', '--exit-code', '1', '/workspace']
     waitFor: ['Build App'] # Wait for the 'Build App' step to finish
 
+  # --------------------------------------------------------------------
+  # Step 3: Build the Docker image
+  # We use the standard 'docker' builder.
+  # We tag the image with the GCR path and the short commit SHA.
+  # $PROJECT_ID and $SHORT_SHA are default substitutions.
+  # --------------------------------------------------------------------
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'Build Docker Image'
+    args:
+      [
+        'build',
+        '-t',
+        'gcr.io/$PROJECT_ID/my-application:$SHORT_SHA',
+        '.', # Build from the current directory
+      ]
+    waitFor: ['Scan Filesystem'] # Wait for the scan to pass
+
+  # --------------------------------------------------------------------
+  # Step 4: Scan the new Docker image before pushing
+  # This is a best practice. Scan the image you *just* built.
+  # --------------------------------------------------------------------
+  - name: 'aquasec/trivy:latest'
+    id: 'Scan Docker Image'
+    args: ['image', '--exit-code', '1', 'gcr.io/$PROJECT_ID/my-application:$SHORT_SHA']
+    waitFor: ['Build Docker Image']
+
+  # --------------------------------------------------------------------
+  # Step 5: Push the Docker image to Google Container Registry (GCR)
+  # This step only runs if all previous steps (build, scan) succeed.
+  # --------------------------------------------------------------------
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'Push Docker Image'
+    args: ['push', 'gcr.io/$PROJECT_ID/my-application:$SHORT_SHA']
+    waitFor: ['Scan Docker Image']
+
+# ----------------------------------------------------------------------
+# Alternative (and simpler) way to push the image:
+# Instead of a 'docker push' step, you can just use the 'images' key.
+# Cloud Build will automatically build and push this image
+# *after* all steps have successfully completed.
+#
+# NOTE: If you use 'images', you still need the 'Build Docker Image' step,
+# but you can remove the 'Push Docker Image' step.
+# ----------------------------------------------------------------------
+images:
+  - 'gcr.io/$PROJECT_ID/my-application:$SHORT_SHA'
+
+# ----------------------------------------------------------------------
+# Optional: Speed up builds by caching node modules
+# ----------------------------------------------------------------------
 options:
- logs_bucket: 'gs://rational-diode-472010-e0'
-  
+  volumes:
+    - name: 'node_modules_cache'
+      path: '/workspace/node_modules'
