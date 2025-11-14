@@ -25,4 +25,6 @@ steps:
     args: ['fs', '--security-checks', 'vuln', '--exit-code', '1', '/workspace']
     waitFor: ['Build App'] # Wait for the 'Build App' step to finish
 
+options:
+ logs_bucket: 'gs://rational-diode-472010-e0'
   
